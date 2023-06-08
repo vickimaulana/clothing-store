@@ -1,0 +1,117 @@
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #CFCFCF;
+    border-radius: 20px;
+}
+
+body {
+    padding-top: 70px;
+}
+
+/*.accordion{
+    position: fixed;
+    z-index: 999;
+    width:600px;
+    overflow-y: scroll;
+    height: calc(100% - 64px);
+    margin: 0px 0 405px 0;
+}*/
+
+/*@media(min-width:768px) {
+    #content-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 52px 0 0 0;
+    }
+}*/
+
+@media(max-width:575px) {
+    .additem {
+        margin-top: 10px;
+    }
+}
+
+.table-hover > thead > tr > th {
+    border: none;
+}
+
+.fa-bars{
+    color: rgb(194, 161, 101);
+}
+
+.wrap {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff80;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    text-align: center;
+}
+
+.text:after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.text span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#btn-confirm{
+    background-color: orange;
+    color: white;
+}
+
+#btn-confirm:hover{
+    background-color: rgb(233, 151, 0);
+}
+
+#btn-modal{
+    background-color: orange;
+    color: white;
+}
+
+#btn-modal:hover{
+    background-color: rgb(233, 151, 0);
+}
+
+#btn-search{
+    background-color: orange;
+}
+
+#btn-search:hover{
+    background-color: rgb(233, 151, 0);
+}
+
+#img-profile{
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+}
+
+#img-clothing{
+    width: 50px; 
+    height: 50px; 
+    object-fit: cover;
+}
+
+#img-display{
+    height: 200px; 
+    width: 200px; 
+    object-fit: cover;
+}
